@@ -19,7 +19,7 @@
 
 <!--   my-ticker -->
 <p align="center">
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=550&height=100&lines=Welcome+to+my+Project+Discord!" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=1060&height=100&lines=Welcome+to+my+Project+Discord!%0AEnhancing+Community+Interaction+with+Innovative+Solutions." alt="Typing SVG" /></a>
 </p>
 
 <!-- TABLE OF CONTENTS -->
