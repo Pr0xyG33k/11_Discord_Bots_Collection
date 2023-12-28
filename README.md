@@ -35,13 +35,10 @@
 <!-- ABOUT -->
 <h2>about</h2>
 <div align="center">
- <br>
-  <img src="https://img.shields.io/pypi/pyversions/pip">
-  <img src="https://badge.fury.io/py/psutil.svg">
- <br>
+    <!-- <img src="https://img.shields.io/pypi/pyversions/pip"> -->
+    <!-- <img src="https://badge.fury.io/py/psutil.svg"> -->
 </div>
 <div align="center">
-  <br>
 </div>
 
 This project aims to develop a multifunctional Discord bot to simplify the management of Discord servers. The bot includes features such as automated welcome of new members, message moderation, role distribution, reactions, and much more.
