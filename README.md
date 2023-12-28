@@ -71,7 +71,7 @@ Make sure you've created a bot account on the Discord developer portal and confi
 1. **Run the repository :**
    ```bash
    git clone https://github.com/Pr0xyG33k/Discord.git
-   cd Discord
+   cd Discord/main
 
 2. **Install dependencies :**
    ```py
