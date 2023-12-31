@@ -188,6 +188,7 @@ def load_phishinglist(file_name):
 message_history = {}
 # Load the blacklist words from the 'blacklist.txt' file
 blacklist = load_blacklist('blacklist.txt')
+tab = message.content.lower().split()
 # Load the phishinglist words from the 'phishinglist.txt' file
 phishinglist = load_phishinglist('phishinglist.txt')
 
@@ -200,7 +201,7 @@ async def on_message(message):
 
     # Check if the message contains any blacklisted words
     for word in blacklist:
-        if word in message.content.lower():
+        if word in tab:
             # Delete the message
             await message.delete()
 
