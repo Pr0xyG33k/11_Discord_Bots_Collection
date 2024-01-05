@@ -65,15 +65,28 @@ Make sure you've created a bot account on the Discord developer portal and confi
 <div align="center">
 </div>
 
-1. **Run the repository :**
+1. **Create and activate the virtual environment :**
    ```bash
+   # Make sure you're in the directory where you want to create the virtual environment
+   python -m venv myenv
+   myenv\Scripts\Activate
+
+2. **Run the repository :**
+   ```bash
+   # Clone the repository
    git clone https://github.com/Pr0xyG33k/Discord.git
    cd Discord/main
 
-2. **Install dependencies :**
+3. **Install dependencies :**
    ```py
+   # Install necessary dependencies
    pip install -r requirements.txt
 
-3. **Configuring the bot :**
+4. **Configuring the bot :**
 - Create an .env file and add the necessary access keys.
 - Configure bot parameters in config.py.
+
+5. **Run :**
+   ```py
+   # Run the Discord bot following the repository's documentation
+   python3 bot.py
