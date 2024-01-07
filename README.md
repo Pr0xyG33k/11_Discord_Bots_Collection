@@ -62,6 +62,8 @@ To run this Discord bot on your server, make sure you have the following install
 - **Python:** Version 3.6 or higher
 - **Discord.py :** Python library for the Discord API
 - **Other dependencies:** Check the `requirements.txt` file for other necessary libraries.
+- **Developer Portal:** Create a new application, and then turn it into a bot by navigating to the "Bot" section of your application. You can name your bot and generate a token necessary for authentication.
+- **Development Environment:** Using a code editor optimized for Python, such as Visual Studio Code, can significantly enhance your development experience.
 
 <!-- USAGE -->
 <h2>usage</h2>
@@ -95,7 +97,7 @@ To run this Discord bot on your server, make sure you have the following install
    ```bash
    #Create an .env file and add the necessary access keys.
    [TOKEN]
-   DISCORD_TOKEN_EVENTS=
+   TOKEN=YOUR_BOT_TOKEN_HERE
    ```
 
 5. **Run :**
