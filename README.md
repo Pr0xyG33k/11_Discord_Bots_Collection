@@ -32,6 +32,8 @@
   </ol>
 </details>
 
+---
+
 <!-- ABOUT -->
 <h2>about</h2>
 <div align="center">
