@@ -65,7 +65,7 @@ Make sure you've created a bot account on the Discord developer portal and confi
 <div align="center">
 </div>
 <div style="border-radius: 5px; background-color: #f0f0f0; padding: 10px;">
-</div>
+
     
 1. **Create and activate the virtual environment :**
    ```bash
@@ -98,3 +98,4 @@ Make sure you've created a bot account on the Discord developer portal and confi
    # Run the Discord bot following the repository's documentation
    python3 bot.py
    ```
+</div>
