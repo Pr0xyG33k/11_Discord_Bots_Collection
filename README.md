@@ -41,7 +41,14 @@
 <div align="center">
 </div>
 
-This project aims to develop a multifunctional Discord bot to simplify the management of Discord servers. The bot includes features such as automated welcome of new members, message moderation, role distribution, reactions, and much more.
+> [!NOTE]  
+> This project aims to develop a multifunctional Discord bot to simplify the management of Discord servers. The bot includes features such as automated welcome of new members, message moderation, role distribution, reactions, and much more.
+
+> [!IMPORTANT]  
+> Please note that certain sections of the setup and configuration require careful attention. Incorrect setup might result in unexpected behavior or errors. It's crucial to follow the instructions precisely to ensure the bot works as intended within your Discord server. 
+
+> [!WARNING]  
+> This bot requires careful configuration and permission setup. Improper use may lead to unintended actions or disruptions within your Discord server. Ensure to review and understand the bot's functionalities and permissions before deployment.
 
 <!-- REQUIREMENTS -->
 <h2>requirements</h2>
@@ -55,8 +62,6 @@ To run this Discord bot on your server, make sure you have the following install
 - **Python:** Version 3.6 or higher
 - **Discord.py :** Python library for the Discord API
 - **Other dependencies:** Check the `requirements.txt` file for other necessary libraries.
-
-Make sure you've created a bot account on the Discord developer portal and configured the necessary permissions for the bot.
 
 <!-- USAGE -->
 <h2>usage</h2>
@@ -99,3 +104,7 @@ Make sure you've created a bot account on the Discord developer portal and confi
    python3 bot.py
    ```
 </div>
+
+
+
+
