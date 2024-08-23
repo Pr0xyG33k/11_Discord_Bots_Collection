@@ -61,11 +61,15 @@
 
 <!-- Necessary installations -->
 To run this Discord bot on your server, make sure you have the following installed:
-- **Python:** Version 3.6 or higher
-- **Discord.py :** Python library for the Discord API
-- **Other dependencies:** Check the `requirements.txt` file for other necessary libraries.
-- **Developer Portal:** Create a new application, and then turn it into a bot by navigating to the "Bot" section of your application. You can name your bot and generate a token necessary for authentication.
-- **Development Environment:** Using a code editor optimized for Python, such as Visual Studio Code, can significantly enhance your development experience.
+
+| Name                   | A short summary                              | Install   | Downloads |
+| ---------------------- | -------------------------------------------- | --------- | --------- |
+| beautifulsoup4 | Utilized for parsing and extracting data from HTML and XML documents, enabling efficient web scraping and data manipulation.  | [![Python](https://img.shields.io/pypi/v/beautifulsoup4?color=blue&label=python)](https://pypi.org/project/beautifulsoup4/) | [![Python](https://pepy.tech/badge/beautifulsoup4)](https://pypi.org/project/beautifulsoup4/#files) |
+| discord | Provides tools for interacting with the Discord API, facilitating the creation and management of Discord bots and integrations.  | [![Python](https://img.shields.io/pypi/v/discord.py?color=blue&label=python)](https://pypi.org/project/discord.py/) | [![Python](https://pepy.tech/badge/discord.py)](https://pypi.org/project/discord.py/#files) |
+| openai | Integrates with OpenAI's APIs, offering access to advanced AI models for natural language processing and other AI-driven functionalities.  | [![Python](https://img.shields.io/pypi/v/openai?color=blue&label=python)](https://pypi.org/project/openai/) | [![Python](https://pepy.tech/badge/openai)](https://pypi.org/project/openai/#files) |
+| dotenv  | Manages environment variables by loading them from .env files, ensuring secure and configurable application settings.   | [![Python](https://img.shields.io/pypi/v/python-dotenv?color=blue&label=python)](https://pypi.org/project/python-dotenv/) | [![Python](https://pepy.tech/badge/python-dotenv)](https://pypi.org/project/python-dotenv/#files) |
+| requests   | Simplifies making HTTP requests, handling interactions with web services and APIs through an easy-to-use interface.   | [![Python](https://img.shields.io/pypi/v/requests?color=blue&label=python)](https://pypi.org/project/requests/) | [![Python](https://pepy.tech/badge/requests)](https://pypi.org/project/requests/#files) |
+| schedule   | Manages task scheduling, allowing for the periodic execution of functions and automation of recurring tasks.   | [![Python](https://img.shields.io/pypi/v/schedule?color=blue&label=python)](https://pypi.org/project/schedule/) | [![Python](https://pepy.tech/badge/schedule)](https://pypi.org/project/schedule/#files) |
 
 <!-- USAGE -->
 <h2>usage</h2>
