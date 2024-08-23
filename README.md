@@ -1,19 +1,19 @@
 <!--   my-icons -->
 <p align="center">
 </a>
-    <a href="https://github.com/Pr0xyG33k/Discord"><img src="https://img.shields.io/badge/status-update-greengreen.svg?style=for-the-badge"></a>
-    <a href="https://github.com/Pr0xyG33k/Discord/graphs/contributors"><img src="https://img.shields.io/github/contributors/Pr0xyG33k/Discord?style=for-the-badge">
-    <a href="https://github.com/Pr0xyG33k/Discord/stargazers"><img src="https://img.shields.io/github/stars/Pr0xyG33k/Discord?style=for-the-badge"></a>
-    <a href="https://github.com/Pr0xyG33k/Discord/network/members"><img src="https://img.shields.io/github/forks/Pr0xyG33k/Discord.svg?style=for-the-badge"></a>
-    <a href="https://github.com/Pr0xyG33k/Discord/issues"><img src="https://img.shields.io/github/issues/Pr0xyG33k/Discord.svg?style=for-the-badge"></a>
+    <a href="https://github.com/Pr0xyG33k/11_Discord_Bots_Collection"><img src="https://img.shields.io/badge/status-update-greengreen.svg?style=for-the-badge"></a>
+    <a href="https://github.com/Pr0xyG33k/11_Discord_Bots_Collection/graphs/contributors"><img src="https://img.shields.io/github/contributors/Pr0xyG33k/11_Discord_Bots_Collection?style=for-the-badge">
+    <a href="https://github.com/Pr0xyG33k/11_Discord_Bots_Collection/stargazers"><img src="https://img.shields.io/github/stars/Pr0xyG33k/11_Discord_Bots_Collection?style=for-the-badge"></a>
+    <a href="https://github.com/Pr0xyG33k/11_Discord_Bots_Collection/network/members"><img src="https://img.shields.io/github/forks/Pr0xyG33k/11_Discord_Bots_Collection.svg?style=for-the-badge"></a>
+    <a href="https://github.com/Pr0xyG33k/11_Discord_Bots_Collection/issues"><img src="https://img.shields.io/github/issues/Pr0xyG33k/11_Discord_Bots_Collection.svg?style=for-the-badge"></a>
 </p>
 
 <!-- PROJECT LOGO -->
   <p align="center">
     <br />
-    <a href="https://github.com/Pr0xyG33k/Discord/issues">Report Bug</a>
+    <a href="https://github.com/Pr0xyG33k/11_Discord_Bots_Collection/issues">Report Bug</a>
     ·
-    <a href="https://github.com/Pr0xyG33k/Discord/pulls">Request Feature</a>
+    <a href="https://github.com/Pr0xyG33k/11_Discord_Bots_Collection/pulls">Request Feature</a>
   </p>
 </div>
 
@@ -89,8 +89,8 @@ To run this Discord bot on your server, make sure you have the following install
 2. **Run the repository :**
    ```bash
    # Clone the repository
-   git clone https://github.com/Pr0xyG33k/Discord.git
-   cd Discord/main
+   git clone https://github.com/Pr0xyG33k/11_Discord_Bots_Collection.git
+   cd 11_Discord_Bots_Collection/main
    ```
 
 3. **Install dependencies :**
