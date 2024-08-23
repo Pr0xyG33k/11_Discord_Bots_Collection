@@ -6,6 +6,7 @@
     <a href="https://github.com/Pr0xyG33k/11_Discord_Bots_Collection/stargazers"><img src="https://img.shields.io/github/stars/Pr0xyG33k/11_Discord_Bots_Collection?style=for-the-badge"></a>
     <a href="https://github.com/Pr0xyG33k/11_Discord_Bots_Collection/network/members"><img src="https://img.shields.io/github/forks/Pr0xyG33k/11_Discord_Bots_Collection.svg?style=for-the-badge"></a>
     <a href="https://github.com/Pr0xyG33k/11_Discord_Bots_Collection/issues"><img src="https://img.shields.io/github/issues/Pr0xyG33k/11_Discord_Bots_Collection.svg?style=for-the-badge"></a>
+    <a href="https://github.com/Pr0xyG33k/11_Discord_Bots_Collection/blob/master/LICENSE"><img src="https://img.shields.io/github/license/Pr0xyG33k/11_Discord_Bots_Collection.svg?style=for-the-badge"></a>
 </p>
 
 <!-- PROJECT LOGO -->
