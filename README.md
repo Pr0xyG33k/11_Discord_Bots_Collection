@@ -86,6 +86,7 @@ To run this Discord bot on your server, make sure you have the following install
    # Make sure you're in the directory where you want to create the virtual environment
    python -m venv myenv
    myenv\Scripts\Activate
+   ```
 
 2. **Run the repository :**
    ```bash
