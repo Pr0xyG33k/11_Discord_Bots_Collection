@@ -37,7 +37,7 @@
 <!-- ABOUT -->
 <h2>about</h2>
 <div>
-    The 12_XProtect_Collection includes a variety of scripts for Milestone XProtect, aimed at improving functionality, automating tasks, and integrating with other systems.
+    The 11_Discord_Bots_Collection includes a variety of Discord bot projects, each designed to demonstrate different functionalities and use cases for Discord bots.
 </div>
 <div align="center">
 </div>
@@ -49,13 +49,7 @@
 </p>
 <ul>
     <li>
-        <a href="./01_XProtect_Process_Monitoring/"><strong>01_XProtect_Process_Monitoring</strong></a>: Monitors and manages process instances related to XProtect.
-    </li>
-    <li>
-        <a href="./02_XProtect_Service_Management/"><strong>02_XProtect_Service_Management</strong></a>: Manages XProtect services via PowerShell scripts.
-    </li>
-    <li>
-        <a href="./03_XProtect_Camera_Integration/"><strong>03_XProtect_Camera_Integration</strong></a>: Integrates cameras into the XProtect system.
+        <a href="./01_Discord_Bot_Multifunctional/"><strong>01_Discord_Bot_Multifunctional</strong></a>: Monitors and manages process instances related to XProtect.
     </li>
 </ul>
 
