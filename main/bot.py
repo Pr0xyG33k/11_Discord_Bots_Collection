@@ -66,20 +66,20 @@ emoji_to_verif = {
     '✅': 'Verified'
 }
 
-# Event handler when the bot for handling events is ready
 @bot_events.event
+""" Event handler when the bot for handling events is ready """
 async def on_ready():
     print(f'Bot events has connected as {bot_events.user}')
     print('---------------------------------------------------')
 
-# Event handler when the bot for handling commands is ready
 @bot_commands.event
+""" Event handler when the bot for handling commands is ready """
 async def on_ready():
     print(f'Bot commands has connected as {bot_commands.user}')
     print('---------------------------------------------------')
 
-# Event handler when a member joins the server
 @bot_events.event
+""" Event handler when a member joins the server """
 async def on_member_join(member):
     # Your existing code to send a welcome message in DM and in the welcome channel
     guild = member.guild
@@ -140,8 +140,8 @@ async def on_member_join(member):
         await asyncio.sleep(10)
         await message.delete()
 
-#  Member Leave Notification
 @bot_events.event
+"""  Member Leave Notification """
 async def on_member_remove(member):
     #print(f"Member {member.display_name} has left the server.")
     channel = discord.utils.get(member.guild.channels, id=MEMBER_LEAVE_ID)
@@ -162,8 +162,8 @@ async def on_member_remove(member):
     embed.add_field(name='leaved_at :', value=member.joined_at.strftime('%a, %#d %B %Y, %I:%M %p UTC'), inline=True)
     await channel.send(embed=embed)
 
-# Function to load the blacklist words from a file
 def load_blacklist(file_name):
+""" Function to load the blacklist words from a file """
     # Load the blacklist words from the file
     blacklist = []
     with open(file_name, 'r') as file:
@@ -173,8 +173,8 @@ def load_blacklist(file_name):
                 blacklist.append(word)
     return blacklist
 
-# Function to load the phishinglist words from a file
 def load_phishinglist(file_name):
+""" Function to load the phishinglist words from a file """
     # Load the phishinglist words from the file
     phishinglist = []
     with open(file_name, 'r') as file:
@@ -192,8 +192,8 @@ tab = message.content.lower().split()
 # Load the phishinglist words from the 'phishinglist.txt' file
 phishinglist = load_phishinglist('phishinglist.txt')
 
-# Event handler when a message is sent in a channel
 @bot_events.event
+""" Event handler when a message is sent in a channel """
 async def on_message(message):
     # Ignore messages sent by bots
     if message.author.bot:
@@ -491,8 +491,8 @@ async def on_raw_reaction_remove(payload):
             if role:
                 await member.remove_roles(role)
 
-# Command to send the annoucements message
 @bot_commands.command()
+""" Command to send the annoucements message """
 async def annoucements(ctx):
     # Find the roles channel in the server
     annoucements_channel = discord.utils.get(ctx.guild.channels, id=ANNOUCEMENTS_CHANNEL_ID)
@@ -511,8 +511,8 @@ async def annoucements(ctx):
     else:
         await ctx.send("Channel 'annoucements' not found in the server.")
 
-# Command to send the welcome message
 @bot_commands.command()
+""" Command to send the welcome message """
 async def welcome(ctx):
     # Find the welcome channel in the server
     welcome_channel = discord.utils.get(
@@ -534,8 +534,8 @@ async def welcome(ctx):
     else:
         await ctx.send("Channel 'welcome-and-rules' not found in the server.")
 
-# Command to send the roles message
 @bot_commands.command()
+""" Command to send the roles message """
 async def roles(ctx):
     # Find the roles channel in the server
     roles_channel = discord.utils.get(ctx.guild.channels, id=ROLES_CHANNEL_ID)
@@ -554,8 +554,8 @@ async def roles(ctx):
     else:
         await ctx.send("Channel 'roles' not found in the server.")
 
-# Command to send the react message
 @bot_commands.command()
+""" Command to send the react message """
 async def react(ctx):
     react_channel = discord.utils.get(ctx.guild.channels, id=ROLES_CHANNEL_ID)
     if react_channel:
