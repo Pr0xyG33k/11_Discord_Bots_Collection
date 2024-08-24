@@ -49,7 +49,7 @@
 </p>
 <ul>
     <li>
-        <a href="./01_Discord_Bot_Multifunctional/"><strong>01_Discord_Bot_Multifunctional</strong></a>: Monitors and manages process instances related to XProtect.
+        <a href="./01_Discord_Bot_Multifunctional/"><strong>01_Discord_Bot_Multifunctional</strong></a>: A versatile bot designed to handle multiple tasks and provide a range of functionalities for Discord servers.
     </li>
 </ul>
 
